@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E24D955F28CA211400FA768C /* RaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D955E28CA211400FA768C /* RaverApp.swift */; };
+		E24D956128CA211400FA768C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D956028CA211400FA768C /* ContentView.swift */; };
+		E24D956328CA211500FA768C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24D956228CA211500FA768C /* Assets.xcassets */; };
+		E24D956628CA211500FA768C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24D956528CA211500FA768C /* Preview Assets.xcassets */; };
+		E24D957028CA211500FA768C /* RaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D956F28CA211500FA768C /* RaverTests.swift */; };
+		E24D957A28CA211500FA768C /* RaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D957928CA211500FA768C /* RaverUITests.swift */; };
+		E24D957C28CA211500FA768C /* RaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E24D956C28CA211500FA768C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E24D955328CA211400FA768C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E24D955A28CA211400FA768C;
+			remoteInfo = Raver;
+		};
+		E24D957628CA211500FA768C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E24D955328CA211400FA768C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E24D955A28CA211400FA768C;
+			remoteInfo = Raver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E24D955B28CA211400FA768C /* Raver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24D955E28CA211400FA768C /* RaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverApp.swift; sourceTree = "<group>"; };
+		E24D956028CA211400FA768C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E24D956228CA211500FA768C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E24D956528CA211500FA768C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E24D956B28CA211500FA768C /* RaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24D956F28CA211500FA768C /* RaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverTests.swift; sourceTree = "<group>"; };
+		E24D957528CA211500FA768C /* RaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24D957928CA211500FA768C /* RaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverUITests.swift; sourceTree = "<group>"; };
+		E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24D955828CA211400FA768C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D956828CA211500FA768C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D957228CA211500FA768C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E24D955228CA211400FA768C = {
+			isa = PBXGroup;
+			children = (
+				E24D955D28CA211400FA768C /* Raver */,
+				E24D956E28CA211500FA768C /* RaverTests */,
+				E24D957828CA211500FA768C /* RaverUITests */,
+				E24D955C28CA211400FA768C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24D955C28CA211400FA768C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24D955B28CA211400FA768C /* Raver.app */,
+				E24D956B28CA211500FA768C /* RaverTests.xctest */,
+				E24D957528CA211500FA768C /* RaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24D955D28CA211400FA768C /* Raver */ = {
+			isa = PBXGroup;
+			children = (
+				E24D955E28CA211400FA768C /* RaverApp.swift */,
+				E24D956028CA211400FA768C /* ContentView.swift */,
+				E24D956228CA211500FA768C /* Assets.xcassets */,
+				E24D956428CA211500FA768C /* Preview Content */,
+			);
+			path = Raver;
+			sourceTree = "<group>";
+		};
+		E24D956428CA211500FA768C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E24D956528CA211500FA768C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E24D956E28CA211500FA768C /* RaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				E24D956F28CA211500FA768C /* RaverTests.swift */,
+			);
+			path = RaverTests;
+			sourceTree = "<group>";
+		};
+		E24D957828CA211500FA768C /* RaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E24D957928CA211500FA768C /* RaverUITests.swift */,
+				E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */,
+			);
+			path = RaverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24D955A28CA211400FA768C /* Raver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24D957F28CA211500FA768C /* Build configuration list for PBXNativeTarget "Raver" */;
+			buildPhases = (
+				E24D955728CA211400FA768C /* Sources */,
+				E24D955828CA211400FA768C /* Frameworks */,
+				E24D955928CA211400FA768C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raver;
+			productName = Raver;
+			productReference = E24D955B28CA211400FA768C /* Raver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E24D956A28CA211500FA768C /* RaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24D958228CA211500FA768C /* Build configuration list for PBXNativeTarget "RaverTests" */;
+			buildPhases = (
+				E24D956728CA211500FA768C /* Sources */,
+				E24D956828CA211500FA768C /* Frameworks */,
+				E24D956928CA211500FA768C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24D956D28CA211500FA768C /* PBXTargetDependency */,
+			);
+			name = RaverTests;
+			productName = RaverTests;
+			productReference = E24D956B28CA211500FA768C /* RaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E24D957428CA211500FA768C /* RaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24D958528CA211500FA768C /* Build configuration list for PBXNativeTarget "RaverUITests" */;
+			buildPhases = (
+				E24D957128CA211500FA768C /* Sources */,
+				E24D957228CA211500FA768C /* Frameworks */,
+				E24D957328CA211500FA768C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24D957728CA211500FA768C /* PBXTargetDependency */,
+			);
+			name = RaverUITests;
+			productName = RaverUITests;
+			productReference = E24D957528CA211500FA768C /* RaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24D955328CA211400FA768C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E24D955A28CA211400FA768C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E24D956A28CA211500FA768C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E24D955A28CA211400FA768C;
+					};
+					E24D957428CA211500FA768C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E24D955A28CA211400FA768C;
+					};
+				};
+			};
+			buildConfigurationList = E24D955628CA211400FA768C /* Build configuration list for PBXProject "Raver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E24D955228CA211400FA768C;
+			productRefGroup = E24D955C28CA211400FA768C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24D955A28CA211400FA768C /* Raver */,
+				E24D956A28CA211500FA768C /* RaverTests */,
+				E24D957428CA211500FA768C /* RaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24D955928CA211400FA768C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24D956628CA211500FA768C /* Preview Assets.xcassets in Resources */,
+				E24D956328CA211500FA768C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D956928CA211500FA768C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D957328CA211500FA768C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24D955728CA211400FA768C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24D956128CA211400FA768C /* ContentView.swift in Sources */,
+				E24D955F28CA211400FA768C /* RaverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D956728CA211500FA768C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24D957028CA211500FA768C /* RaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D957128CA211500FA768C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24D957A28CA211500FA768C /* RaverUITests.swift in Sources */,
+				E24D957C28CA211500FA768C /* RaverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E24D956D28CA211500FA768C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E24D955A28CA211400FA768C /* Raver */;
+			targetProxy = E24D956C28CA211500FA768C /* PBXContainerItemProxy */;
+		};
+		E24D957728CA211500FA768C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E24D955A28CA211400FA768C /* Raver */;
+			targetProxy = E24D957628CA211500FA768C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E24D957D28CA211500FA768C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E24D957E28CA211500FA768C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24D958028CA211500FA768C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raver/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BNVRXY5UB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ottaviobuonomo.Raver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E24D958128CA211500FA768C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raver/Preview Content\"";
+				DEVELOPMENT_TEAM = 6BNVRXY5UB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ottaviobuonomo.Raver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E24D958328CA211500FA768C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BNVRXY5UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.ottaviobuonomo.RaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raver.app/Raver";
+			};
+			name = Debug;
+		};
+		E24D958428CA211500FA768C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BNVRXY5UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.ottaviobuonomo.RaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raver.app/Raver";
+			};
+			name = Release;
+		};
+		E24D958628CA211500FA768C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BNVRXY5UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.ottaviobuonomo.RaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raver;
+			};
+			name = Debug;
+		};
+		E24D958728CA211500FA768C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BNVRXY5UB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.ottaviobuonomo.RaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24D955628CA211400FA768C /* Build configuration list for PBXProject "Raver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24D957D28CA211500FA768C /* Debug */,
+				E24D957E28CA211500FA768C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24D957F28CA211500FA768C /* Build configuration list for PBXNativeTarget "Raver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24D958028CA211500FA768C /* Debug */,
+				E24D958128CA211500FA768C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24D958228CA211500FA768C /* Build configuration list for PBXNativeTarget "RaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24D958328CA211500FA768C /* Debug */,
+				E24D958428CA211500FA768C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24D958528CA211500FA768C /* Build configuration list for PBXNativeTarget "RaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24D958628CA211500FA768C /* Debug */,
+				E24D958728CA211500FA768C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24D955328CA211400FA768C /* Project object */;
+}
