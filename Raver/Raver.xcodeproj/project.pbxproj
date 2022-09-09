@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E239A4E928CBA61C00DEAF51 /* DetailEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239A4E828CBA61C00DEAF51 /* DetailEventView.swift */; };
 		E24D955F28CA211400FA768C /* RaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D955E28CA211400FA768C /* RaverApp.swift */; };
 		E24D956128CA211400FA768C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D956028CA211400FA768C /* ContentView.swift */; };
 		E24D956328CA211500FA768C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24D956228CA211500FA768C /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		E24D957028CA211500FA768C /* RaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D956F28CA211500FA768C /* RaverTests.swift */; };
 		E24D957A28CA211500FA768C /* RaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D957928CA211500FA768C /* RaverUITests.swift */; };
 		E24D957C28CA211500FA768C /* RaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */; };
+		E29A8D7128CBB604009B7152 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A8D7028CBB604009B7152 /* ExpandableText.swift */; };
+		E29A8D7328CBCA50009B7152 /* RadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A8D7228CBCA50009B7152 /* RadiusShape.swift */; };
+		E2CD199A28CA234C00E7529D /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD199928CA234C00E7529D /* EventCard.swift */; };
+		E2CD199C28CA2FA400E7529D /* SmallEventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD199B28CA2FA400E7529D /* SmallEventCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E239A4E828CBA61C00DEAF51 /* DetailEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEventView.swift; sourceTree = "<group>"; };
 		E24D955B28CA211400FA768C /* Raver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24D955E28CA211400FA768C /* RaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverApp.swift; sourceTree = "<group>"; };
 		E24D956028CA211400FA768C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		E24D957528CA211500FA768C /* RaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24D957928CA211500FA768C /* RaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverUITests.swift; sourceTree = "<group>"; };
 		E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E29A8D7028CBB604009B7152 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
+		E29A8D7228CBCA50009B7152 /* RadiusShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusShape.swift; sourceTree = "<group>"; };
+		E2CD199928CA234C00E7529D /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
+		E2CD199B28CA2FA400E7529D /* SmallEventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallEventCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				E24D956028CA211400FA768C /* ContentView.swift */,
 				E24D956228CA211500FA768C /* Assets.xcassets */,
 				E24D956428CA211500FA768C /* Preview Content */,
+				E2CD199928CA234C00E7529D /* EventCard.swift */,
+				E2CD199B28CA2FA400E7529D /* SmallEventCard.swift */,
+				E239A4E828CBA61C00DEAF51 /* DetailEventView.swift */,
+				E29A8D7028CBB604009B7152 /* ExpandableText.swift */,
+				E29A8D7228CBCA50009B7152 /* RadiusShape.swift */,
 			);
 			path = Raver;
 			sourceTree = "<group>";
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2CD199C28CA2FA400E7529D /* SmallEventCard.swift in Sources */,
 				E24D956128CA211400FA768C /* ContentView.swift in Sources */,
+				E29A8D7328CBCA50009B7152 /* RadiusShape.swift in Sources */,
+				E29A8D7128CBB604009B7152 /* ExpandableText.swift in Sources */,
+				E2CD199A28CA234C00E7529D /* EventCard.swift in Sources */,
+				E239A4E928CBA61C00DEAF51 /* DetailEventView.swift in Sources */,
 				E24D955F28CA211400FA768C /* RaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
