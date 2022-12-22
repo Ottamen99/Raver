@@ -17,36 +17,36 @@ struct EventCard: View {
     var body: some View {
         VStack{
             Image(image)
-                            .resizable()
-                            .scaledToFill()
-                            .frame(height: 200)
-                            .cornerRadius(20)
-                            .padding([.horizontal, .top])
-                            .overlay(alignment: .bottom) {
-                                    
-                                Rectangle().frame(height: 75)
-                                    .background(
-                                        .ultraThinMaterial,
-                                        in: RoundedRectangle(cornerRadius: 1, style: .continuous)
-                                    ).opacity(0.8)
-                                    .cornerRadius(radius: 20, corners: [.bottomLeft, .bottomRight])
-                                    .padding(.horizontal)
-                                VStack {
-                                    Text(name)
-                                        .font(.headline)
-                                        .foregroundColor(.white)
-                                        .frame(maxWidth: .infinity, alignment: .leading)
-                                    Text(place)
-                                        .foregroundColor(.white)
-                                        .font(.caption)
-                                        .frame(maxWidth: .infinity, alignment: .leading)
-                                    
-                                }
-                                .padding()
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .padding(.leading, 10)
-                                    
-                            }
+            .resizable()
+            .scaledToFill()
+            .frame(height: 200)
+            .cornerRadius(20)
+            .padding([.horizontal, .top])
+            .overlay(alignment: .bottom) {
+                    
+                Rectangle().frame(height: 75)
+                    .background(
+                        .ultraThinMaterial,
+                        in: RoundedRectangle(cornerRadius: 1, style: .continuous)
+                    ).opacity(0.8)
+                    .cornerRadius(radius: 20, corners: [.bottomLeft, .bottomRight])
+                    .padding(.horizontal)
+                VStack {
+                    Text(name)
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    Text(place)
+                        .foregroundColor(.white)
+                        .font(.caption)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                }
+                .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.leading, 10)
+                    
+            }
             HStack {
                 HStack {
                     Image("cardPlaceholder1")
@@ -111,7 +111,7 @@ struct EventCard: View {
         .background(.white)
         .cornerRadius(20)
         .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 10)
-        .padding(.bottom)
+        .padding([.vertical, .leading])
     }
 }
 

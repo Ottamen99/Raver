@@ -8,42 +8,54 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var showMenu = false
+    
     var body: some View {
-        VStack {
-            HStack {
-                Text("Upcoming Events")
-                    .font(.headline)
-                    .foregroundColor(.secondary)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                Text("View All")
-                    .font(.headline)
-                    .foregroundColor(.indigo)
-                .frame(maxWidth: .infinity, alignment: .trailing)
-            }.padding([.top, .horizontal])
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 15) {
-                    EventCard(image: "cardPlaceholder", category: "Music Festival", name: "Tomorrowland 2017", place: "Boom, Belgium")
-                    EventCard(image: "cardPlaceholder1", category: "Music Festival", name: "Ultra Europe 2022", place: "Split, Coratia")
-                }
-            }.frame(maxWidth: .infinity, maxHeight: 350)
-                .padding(.leading)
-            
-            HStack {
-                Text("Next Month Events")
-                    .font(.headline)
-                    .foregroundColor(.secondary)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                Text("View All")
-                    .font(.headline)
-                    .foregroundColor(.indigo)
-                .frame(maxWidth: .infinity, alignment: .trailing)
-            }.padding([.top, .horizontal])
-            ScrollView(.vertical) {
-                VStack(spacing: 20) {
-                    SmallEventCard(image: "cardPlaceholder1", category: "Music Festival", name: "Ultra Europe 2023", place: "Split, Coratia")
-                    SmallEventCard(image: "cardPlaceholder", category: "Music Festival", name: "Tomorrowland 2023", place: "Boom, Belgium")
+        
+        let drag = DragGesture().onEnded {
+            if $0.translation.width < -100 {
+                withAnimation {
+                    self.showMenu = false
                 }
             }
+        }
+        
+        NavigationView {
+            GeometryReader { geometry in
+                ZStack(alignment: .leading) {
+                    MainView(showMenu: self.$showMenu)
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                        .offset(x: self.showMenu ? geometry.size.width/2 : 0)
+                        .disabled(self.showMenu ? true : false)
+                    if self.showMenu {
+                        SideMenuView()
+                            .frame(width: geometry.size.width/2)
+                                                        .transition(.move(edge: .leading))
+                    }
+                }.gesture(drag)
+            }
+            .navigationBarTitle("", displayMode: .inline)
+            .navigationBarItems(leading: (
+                Button(action: {
+                    withAnimation {
+                        self.showMenu.toggle()
+                    }
+                }) {
+                    Image(systemName: "line.horizontal.3")
+                        .imageScale(.large)
+                        .foregroundColor(.indigo)
+                }
+            ),
+            trailing: (
+                Button(action: {
+                    withAnimation {
+                        self.showMenu.toggle()
+                    }
+                }) {
+                    RoundProfilePictureView(photo: Image("profilePicture1"), height: 40, width: 40)
+                }
+            ))
         }
     }
 }

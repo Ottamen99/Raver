@@ -15,8 +15,13 @@
 		E24D957028CA211500FA768C /* RaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D956F28CA211500FA768C /* RaverTests.swift */; };
 		E24D957A28CA211500FA768C /* RaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D957928CA211500FA768C /* RaverUITests.swift */; };
 		E24D957C28CA211500FA768C /* RaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */; };
+		E270A42328D0DCC5008F222D /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270A42228D0DCC5008F222D /* SideMenuView.swift */; };
+		E270A42528D0DD7C008F222D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270A42428D0DD7C008F222D /* MainView.swift */; };
+		E270A42728D0E310008F222D /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270A42628D0E310008F222D /* TabsView.swift */; };
 		E29A8D7128CBB604009B7152 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A8D7028CBB604009B7152 /* ExpandableText.swift */; };
 		E29A8D7328CBCA50009B7152 /* RadiusShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A8D7228CBCA50009B7152 /* RadiusShape.swift */; };
+		E2B228D728D3321000168EC4 /* RoundProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B228D628D3321000168EC4 /* RoundProfilePictureView.swift */; };
+		E2B228D928D36F8300168EC4 /* ListUpcomingEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B228D828D36F8300168EC4 /* ListUpcomingEventsView.swift */; };
 		E2CD199A28CA234C00E7529D /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD199928CA234C00E7529D /* EventCard.swift */; };
 		E2CD199C28CA2FA400E7529D /* SmallEventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CD199B28CA2FA400E7529D /* SmallEventCard.swift */; };
 /* End PBXBuildFile section */
@@ -50,8 +55,13 @@
 		E24D957528CA211500FA768C /* RaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24D957928CA211500FA768C /* RaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverUITests.swift; sourceTree = "<group>"; };
 		E24D957B28CA211500FA768C /* RaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E270A42228D0DCC5008F222D /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		E270A42428D0DD7C008F222D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E270A42628D0E310008F222D /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		E29A8D7028CBB604009B7152 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
 		E29A8D7228CBCA50009B7152 /* RadiusShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusShape.swift; sourceTree = "<group>"; };
+		E2B228D628D3321000168EC4 /* RoundProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundProfilePictureView.swift; sourceTree = "<group>"; };
+		E2B228D828D36F8300168EC4 /* ListUpcomingEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUpcomingEventsView.swift; sourceTree = "<group>"; };
 		E2CD199928CA234C00E7529D /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
 		E2CD199B28CA2FA400E7529D /* SmallEventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallEventCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +123,11 @@
 				E239A4E828CBA61C00DEAF51 /* DetailEventView.swift */,
 				E29A8D7028CBB604009B7152 /* ExpandableText.swift */,
 				E29A8D7228CBCA50009B7152 /* RadiusShape.swift */,
+				E270A42228D0DCC5008F222D /* SideMenuView.swift */,
+				E270A42428D0DD7C008F222D /* MainView.swift */,
+				E270A42628D0E310008F222D /* TabsView.swift */,
+				E2B228D628D3321000168EC4 /* RoundProfilePictureView.swift */,
+				E2B228D828D36F8300168EC4 /* ListUpcomingEventsView.swift */,
 			);
 			path = Raver;
 			sourceTree = "<group>";
@@ -273,7 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CD199C28CA2FA400E7529D /* SmallEventCard.swift in Sources */,
+				E270A42528D0DD7C008F222D /* MainView.swift in Sources */,
+				E2B228D728D3321000168EC4 /* RoundProfilePictureView.swift in Sources */,
 				E24D956128CA211400FA768C /* ContentView.swift in Sources */,
+				E270A42328D0DCC5008F222D /* SideMenuView.swift in Sources */,
+				E2B228D928D36F8300168EC4 /* ListUpcomingEventsView.swift in Sources */,
+				E270A42728D0E310008F222D /* TabsView.swift in Sources */,
 				E29A8D7328CBCA50009B7152 /* RadiusShape.swift in Sources */,
 				E29A8D7128CBB604009B7152 /* ExpandableText.swift in Sources */,
 				E2CD199A28CA234C00E7529D /* EventCard.swift in Sources */,
